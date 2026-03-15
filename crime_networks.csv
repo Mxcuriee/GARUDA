@@ -1,0 +1,7 @@
+network_type,description,banks,total_amount,risk_score,hash_count,shared_ip
+MULE_FARM,15 entities transacting from identical IP address — centrally controlled mule farm,SBI|PNB|ICICI|HDFC|Axis,22500000,97,15,91.108.44.133
+GHOST_ID,8 deceased individuals found as active account holders — Ghost ID network,SBI|PNB|ICICI|HDFC|Axis,87500000,99,8,
+PIPE_CHAIN,Zero-retention layering chains — funds forwarded in under 45 seconds across banks,SBI|PNB|ICICI|HDFC|Axis,45000000,94,20,
+CIRCULAR_FLOW,5-node circular flow rings — round-tripping to simulate legitimate business,SBI|PNB|ICICI|HDFC|Axis,32000000,91,20,
+BENEFICIAL_OWNER,Single hub receiving from 11 feeders across 5 banks — beneficial owner identified,SBI|PNB|ICICI|HDFC|Axis,156000000,98,12,
+SMURFING,Structured payments just under ₹50K threshold — classic smurfing pattern,SBI|PNB|ICICI|HDFC|Axis,49000000,89,10,

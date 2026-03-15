@@ -1,0 +1,7 @@
+alert_id,type,severity,title,banks,amount,risk_score,status,hash_count
+ALERT-001,MULE_FARM_DETECTED,CRITICAL,Mule Farm — IP 91.108.44.133 — 15 Entities — 5 Banks,SBI|HDFC|Axis|ICICI|PNB,47500000,97,PENDING,15
+ALERT-002,GHOST_ID_DETECTED,CRITICAL,Ghost ID Network — 8 Deceased Entities Transacting,SBI|HDFC|ICICI|Axis|PNB,87500000,99,PENDING,8
+ALERT-003,PIPE_CHAIN_DETECTED,HIGH,Zero-Retention Pipe Chain — 20 Nodes — Sub-45s Transfers,SBI|HDFC|ICICI|Axis|PNB,45000000,94,PENDING,20
+ALERT-004,CIRCULAR_FLOW_DETECTED,HIGH,Circular Flow Rings — 4 Groups — Round-Tripping Confirmed,SBI|HDFC|ICICI|Axis|PNB,32000000,91,PENDING,20
+ALERT-005,BENEFICIAL_OWNER_DETECTED,CRITICAL,Beneficial Owner Hub — 1 Entity Receiving from 11 Feeders,SBI|HDFC|ICICI|Axis|PNB,156000000,98,PENDING,12
+ALERT-006,SMURFING_DETECTED,HIGH,Smurfing Pattern — Structured Payments Under ₹50K Threshold,SBI|HDFC|ICICI|Axis|PNB,49000000,89,PENDING,10
